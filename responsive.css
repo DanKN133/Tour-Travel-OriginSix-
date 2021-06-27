@@ -1,0 +1,101 @@
+@media (min-width: 1200px) {
+  /*    REUSABLE    */
+  .container {
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  section {
+    padding: 10rem 0;
+  }
+
+  .section header,
+  #testimonials header {
+    max-width: 32rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /*    NAVIGATION    */
+
+  nav .menu {
+    opacity: 1;
+    visibility: visible;
+    top: 0;
+  }
+
+  nav .menu ul {
+    display: flex;
+    gap: 2rem;
+  }
+
+  nav .menu ul li a.title {
+    font: 400 1rem var(--body-font);
+  }
+
+  nav .icon-menu {
+    display: none;
+  }
+
+  /*    ABOUT   */
+  #about .container {
+    grid-auto-flow: column;
+    margin: 0 auto;
+  }
+
+  /*    SERVICES    */
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .card {
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+
+  /*    TESTIMONIALS    */
+  #testimonials .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /*    CONTACT   */
+  #contact .container {
+    grid-auto-flow: column;
+    align-items: center;
+  }
+
+  #contact .text {
+    max-width: 25rem;
+  }
+
+  /*    FOOTER    */
+  footer.section {
+    max-width: 3.75rem 0;
+  }
+
+  footer .container {
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1023px) {
+}
+
+@media (min-width: 992px) {
+  :root {
+    --title-font-size: 2.25rem;
+    --subtitle-font-size: 1.125rem;
+  }
+}
+
+@media (min-width: 767px) {
+  #about .image {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
